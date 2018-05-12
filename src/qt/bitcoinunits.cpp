@@ -40,9 +40,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("LTC");
-    case mBTC: return QString("lites");
-    case uBTC: return QString("photons");
+    case BTC: return QString("VDC");
+    case mBTC: return QString("MilliVDC");
+    case uBTC: return QString("MicroVDC");
     default: return QString("???");
     }
 }
