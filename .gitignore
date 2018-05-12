@@ -9,6 +9,14 @@ src/test/test_litecoin
 src/test/test_litecoin_fuzzy
 src/qt/test/test_litecoin-qt
 
+src/voodoocash
+src/voodoocashd
+src/voodoocash-cli
+src/voodoocash-tx
+src/test/test_voodoocash
+src/test/test_voodoocash_fuzzy
+src/qt/test/test_voodoocash-qt
+
 # autoreconf
 Makefile.in
 aclocal.m4
@@ -77,9 +85,14 @@ Makefile
 litecoin-qt
 Litecoin-Qt.app
 
+voodoocash-qt
+VoodooCash-Qt.app
+
 # Unit-tests
 Makefile.test
 litecoin-qt_test
+
+voodoocash-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -93,6 +106,7 @@ build
 *.gcda
 /*.info
 test_litecoin.coverage/
+test_voodoocash.coverage/
 total.coverage/
 coverage_percent.txt
 
